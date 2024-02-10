@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "module": "index.mts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch run index.mts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
